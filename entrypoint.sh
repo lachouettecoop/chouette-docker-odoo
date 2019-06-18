@@ -40,13 +40,13 @@ case "$1" in
     -- | odoo)
         shift
         if [[ "$1" == "scaffold" ]] ; then
-            exec /opt/odoo/odoo/odoo-bin -c /opt/odoo/etc/odoo.conf "$@"
+            exec /opt/odoo/AwesomeFoodCoops/odoo/odoo.py -c /opt/odoo/etc/odoo.conf "$@"
         else
-            exec /opt/odoo/odoo/odoo-bin -c /opt/odoo/etc/odoo.conf "$@" "${DB_ARGS[@]}"
+            exec /opt/odoo/AwesomeFoodCoops/odoo/odoo.py -c /opt/odoo/etc/odoo.conf "$@" "${DB_ARGS[@]}"
         fi
         ;;
     -*)
-        exec /opt/odoo/odoo/odoo-bin -c /opt/odoo/etc/odoo.conf "$@" "${DB_ARGS[@]}"
+        exec /opt/odoo/AwesomeFoodCoops/odoo/odoo.py -c /opt/odoo/etc/odoo.conf "$@" "${DB_ARGS[@]}"
         ;;
     *)
         exec "$@"
