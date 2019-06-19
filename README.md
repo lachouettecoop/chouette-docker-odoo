@@ -1,5 +1,7 @@
 # AwesomeFoodCoops Docker with a couple of modules specific for La Chouette Coop
 
+[![](https://img.shields.io/badge/licence-AGPL--3-blue.svg)](http://www.gnu.org/licenses/agpl "License: AGPL-3")
+
 # Description
 
 This Docker is inspired from the ones from [Le Filament](https://github.com/lefilament/odoo_docker) [Odoo](https://github.com/odoo/docker), [Tecnativa](https://github.com/Tecnativa/doodba) and [Elico Corporation](https://github.com/Elico-Corp/odoo-docker).
